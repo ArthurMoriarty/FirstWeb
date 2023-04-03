@@ -147,6 +147,7 @@ footer a{
 }
 .myInfo1 img{
     width: 20%;
+    border-radius: 20px;
 }
 .myInfo1 p{
     width: 45%;
@@ -177,4 +178,18 @@ span{
 span a{
     color: #fd96de;
     text-decoration: none;
+}
+@media screen and (max-width: 800px){
+    .myInfo1{
+        width: 90%;
+        overflow: hidden;
+    }
+    .myInfo1 img{
+        width: 30vw;
+    }
+    .myInfo3{
+        width: 50%;
+        margin-right: 20px;
+        overflow: hidden;
+    }
 }
